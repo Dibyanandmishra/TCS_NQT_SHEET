@@ -12,7 +12,10 @@ public class countOddDigits {
 
         int count = 0;
         while (input !=0) {
-            if(input % 2 != 0){
+
+            int digit = input % 10;
+
+            if(digit % 2 != 0){
                 count++;
             }
 

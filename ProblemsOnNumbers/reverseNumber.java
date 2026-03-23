@@ -10,9 +10,9 @@ public class reverseNumber {
         int num = sc.nextInt();
 
         int revNum = 0;
-        int remainder;
+
         while(num != 0){
-            remainder = num % 10; 
+            int remainder = num % 10; 
             revNum = revNum * 10 + remainder;
             num = num/10;
         }

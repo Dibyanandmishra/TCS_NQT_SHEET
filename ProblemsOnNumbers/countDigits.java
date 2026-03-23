@@ -11,6 +11,11 @@ public class countDigits {
         int input = sc.nextInt();
 
         int count = 0;
+        
+        if(input == 0){
+            count = 1;
+        }
+
         while(input != 0){
             input = input/10;
             count++;
